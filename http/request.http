@@ -1,0 +1,9 @@
+### Send POST request with json body
+POST {{baseurl}}/salary
+Content-Type: application/json
+
+{
+  "basic": 250000,
+  "travel": 150000,
+  "business": 40000
+}
